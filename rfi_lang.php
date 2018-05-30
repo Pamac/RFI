@@ -9,7 +9,7 @@
 		closedir($handle);
 	}
 	echo ("middle");
-	$content = file_get_contents("./index.php");
+	$content = file_get_contents("index.php");
 	echo base64_encode($content)."\n";
 	echo("end\n");
 ?>
